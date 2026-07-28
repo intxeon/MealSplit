@@ -51,8 +51,8 @@ function addFood() {
 div.innerHTML = `
     <div class="row">
         <input class="foodName" placeholder="Nome alimento">
-        <input class="foodRaw" type="number" placeholder="Grammi crudi">
-        <input class="foodCooked" type="number" placeholder="Grammi cotti">
+        <input class="foodRaw" type="number" placeholder="gr. crudo">
+        <input class="foodCooked" type="number" placeholder="gr. cotto">
     </div>
 
     <button onclick="this.parentElement.remove(); updateDogFoodInputs();">

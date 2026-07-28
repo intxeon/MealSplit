@@ -1,0 +1,85 @@
+body{
+    font-family:system-ui;
+    background:#f3f5f7;
+    margin:0;
+}
+
+.wrap{
+    max-width:1000px;
+    margin:auto;
+    padding:24px;
+}
+
+.card{
+    background:#fff;
+    padding:16px;
+    border-radius:16px;
+    box-shadow:0 2px 10px rgba(0,0,0,.08);
+    margin:16px 0;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    border-radius:10px;
+    border:1px solid #ccc;
+    box-sizing:border-box;
+}
+
+button{
+    padding:10px 16px;
+    border:none;
+    border-radius:10px;
+    background:#0a84ff;
+    color:white;
+    cursor:pointer;
+}
+
+#calc{
+    width:100%;
+    background:#34c759;
+    margin-top:10px;
+}
+
+.food,
+.dog{
+    border:1px solid #e5e5e5;
+    padding:12px;
+    border-radius:12px;
+    margin-bottom:10px;
+}
+
+.row{
+    display:flex;
+    gap:10px;
+    margin-bottom:10px;
+}
+
+.row > *{
+    flex:1;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:15px;
+}
+
+th,td{
+    border:1px solid #ddd;
+    padding:8px;
+    text-align:center;
+}
+
+.foodInputs{
+    margin-top:10px;
+}
+
+#exportPdf{
+    width:100%;
+    margin-top:10px;
+    background:#ff9500;
+}
+.hidden{
+    display:none;
+}

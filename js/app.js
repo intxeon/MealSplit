@@ -30,7 +30,7 @@ function updateDogFoodInputs() {
             const wrapper = document.createElement("div");
 
             wrapper.innerHTML = `
-                <label>${food} (gr crudo)</label>
+                <label>${food} (Dose gr. crudo)</label>
                 <input
                     type="number"
                     data-food="${food}"
